@@ -39,7 +39,7 @@ graph
     N --> O{Congratulations! You're ready for your next project}
     O --> F{Repeat for remaining Level 1 projects}
     O --> P{Move to Level 2, Project 1}
-    P --> Repeat(F --> O)
+    P --> P2{Work the required number of projects at each level in this path}
     subgraph Levels 2-5
         2 --> 3 --> 4 --> 5
     end
